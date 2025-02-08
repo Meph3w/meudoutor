@@ -20,7 +20,7 @@ export default function BlogPage() {
                       {title}
                     </h2>
                   </Link>
-                  <p className="text-gray-300 mb-3">{excerpt}</p>
+                  <p className="text-white">{excerpt}</p>
                   <div className="flex items-center justify-between">
                     <span className="text-gray-400 text-sm">
                       {new Date(date).toLocaleDateString("pt-BR")} | Por {author}
