@@ -3,7 +3,9 @@ import { notFound } from "next/navigation"
 import ReactMarkdown from "react-markdown"
 import Image from "next/image"
 import BlogCTA from "@/components/BlogCTA"
+import { convertMarkdownToHtml } from "@/utils/markdownToHtml" // Adicione o caminho correto do arquivo utilitário
 
+// Função para buscar parâmetros de slug
 export async function generateStaticParams() {
   const posts = getSortedPostsData()
   return posts.map((post) => ({
@@ -11,12 +13,16 @@ export async function generateStaticParams() {
   }))
 }
 
-export default function Post({ params }: { params: { slug: string } }) {
-  const postData = getPostData(params.slug)
+// Função principal para a página de post
+export default async function Post({ params }: { params: { slug: string } }) {
+  const postData = await getPostData(params.slug)
 
   if (!postData) {
     notFound()
   }
+
+  // Converte o conteúdo Markdown para HTML
+  const contentHtml = await convertMarkdownToHtml(postData.content)
 
   return (
     <div className="bg-[#161616] text-white">
@@ -41,7 +47,7 @@ export default function Post({ params }: { params: { slug: string } }) {
               </div>
             )}
             <div className="prose max-w-none text-white">
-              <ReactMarkdown>{postData.content}</ReactMarkdown>
+              <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
             </div>
             <BlogCTA />
           </div>
