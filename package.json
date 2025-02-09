@@ -58,6 +58,8 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
     "zod": "^3.24.1",
+    "remark": "^14.0.0",
+    "remark-html": "^14.0.0",
     "@auth/core": "latest",
     "nodemailer": "latest",
     "@tiptap/core": "latest",
