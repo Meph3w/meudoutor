@@ -34,8 +34,8 @@ export default function Post({ params }: { params: { slug: string } }) {
                 <Image
                   src={postData.image || "/placeholder.svg"}
                   alt={postData.title}
-                  width={800}
-                  height={400}
+                  width={512}
+                  height={288}
                   className="rounded-lg"
                 />
               </div>
