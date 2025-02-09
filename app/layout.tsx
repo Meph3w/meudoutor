@@ -11,7 +11,10 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "meudoutor.digital",
-  description: "High-quality healthcare services for our patients",
+  description: "Saúde de alta qualidade na palma da sua mão. Teleconsultas médicas para todo o Brasil.",
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
