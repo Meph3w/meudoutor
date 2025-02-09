@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "meudoutor.digital",
   description: "Saúde de alta qualidade na palma da sua mão. Teleconsultas médicas para todo o Brasil.",
   icons: {
-    icon: "/public/favicon.png",
+    icon: "/favicon.png", // Configuração no metadata
   },
 }
 
@@ -24,6 +24,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
+      <head>
+        {/* Adicionar o link explícito para o favicon */}
+        <link rel="icon" href="/favicon.png" />
+      </head>
       <body className={`${inter.className} flex flex-col min-h-screen`}>
         <Providers>
           <Header />
@@ -35,4 +39,3 @@ export default function RootLayout({
     </html>
   )
 }
-
