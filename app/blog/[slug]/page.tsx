@@ -40,7 +40,7 @@ export default function Post({ params }: { params: { slug: string } }) {
                 />
               </div>
             )}
-            <div className="prose prose-lg prose-invert max-w-none">
+            <div className="prose max-w-none text-white">
               <ReactMarkdown>{postData.content}</ReactMarkdown>
             </div>
             <BlogCTA />
