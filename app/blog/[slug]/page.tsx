@@ -19,11 +19,11 @@ export default function Post({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <div className="bg-[#161616]">
+    <div className="bg-[#161616] text-white">
       <div className="py-12">
         <article className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold text-white mb-4">{postData.title}</h1>
+            <h1 className="text-4xl font-bold mb-4">{postData.title}</h1>
             <div className="mb-8 flex items-center justify-between">
               <span className="text-gray-400 text-sm">
                 {new Date(postData.date).toLocaleDateString("pt-BR")} | Por {postData.author}
@@ -40,7 +40,7 @@ export default function Post({ params }: { params: { slug: string } }) {
                 />
               </div>
             )}
-            <div className="prose prose-lg prose-invert max-w-none text-white">
+            <div className="prose prose-lg prose-invert max-w-none">
               <ReactMarkdown>{postData.content}</ReactMarkdown>
             </div>
             <BlogCTA />
