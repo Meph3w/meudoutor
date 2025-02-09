@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "meudoutor.digital",
   description: "Saúde de alta qualidade na palma da sua mão. Teleconsultas médicas para todo o Brasil.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/public/favicon.png",
   },
 }
 
