@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { Providers } from "./providers"
-import Header from "@/components/Header"
-import Footer from "@/components/Footer"
-import ConsultaBanner from "@/components/ConsultaBanner"
+import Header from "../components/Header"
+import Footer from "../components/Footer"
+import ConsultaBanner from "../components/ConsultaBanner"
 import type React from "react"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <>
+    <html lang="pt-br">
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -32,10 +32,10 @@ export default function RootLayout({
               <script>
                 (function(w,d,s,l,i){
                   w[l]=w[l]||[];w[l].push({'gtm.start':
-                  new Date().getTime(),event:'gtm.js'});
+                  new Date().getTime(),event:'gtm.js'}); 
                   var f=d.getElementsByTagName(s)[0],
-                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-                  j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''; 
+                  j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; 
                   f.parentNode.insertBefore(j,f);
                 })(window,document,'script','dataLayer','GTM-WV77RWCV');
               </script>
@@ -63,6 +63,6 @@ export default function RootLayout({
           <Footer />
         </Providers>
       </body>
-    </>
+    </html>
   )
 }

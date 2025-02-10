@@ -1,3 +1,13 @@
+export interface Post {
+  id: string;
+  title: string;
+  date: string;
+  excerpt: string;
+  author: string;
+  image?: string;
+  content?: string;
+}
+
 import fs from "fs"
 import path from "path"
 import matter from "gray-matter"
@@ -28,7 +38,7 @@ export function getSortedPostsData() {
     // Combinar os dados com o id
     return {
       id,
-      ...(matterResult.data as { date: string; title: string; excerpt: string; author: string; image?: string }),
+      ...(matterResult.data as { date: string; title: string; excerpt: string; author: string; image?: string; content?: string}),
     }
   })
   // Ordenar posts por data

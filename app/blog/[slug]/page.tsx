@@ -7,10 +7,10 @@ import { convertMarkdownToHtml } from "../../markdownToHtml"
 
 // Função para buscar parâmetros de slug
 export async function generateStaticParams() {
-  const posts = getSortedPostsData()
+  const posts: Post[] = getSortedPostsData();
   return posts.map((post) => ({
     slug: post.id,
-  }))
+  }));
 }
 
 // Função principal para a página de post
@@ -18,7 +18,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
   const postData = await getPostData(params.slug)
 
   if (!postData) {
-    notFound()
+    notFound();
   }
 
   // Converte o conteúdo Markdown para HTML
@@ -54,5 +54,5 @@ export default async function Post({ params }: { params: { slug: string } }) {
         </article>
       </div>
     </div>
-  )
+  );
 }
