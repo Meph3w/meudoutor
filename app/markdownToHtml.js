@@ -1,5 +1,5 @@
 // /utils/markdownToHtml.js
-import remark from 'remark';
+import { remark } from 'remark';
 import html from 'remark-html';
 
 // Função para converter Markdown em HTML
