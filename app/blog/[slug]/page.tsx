@@ -1,8 +1,7 @@
 import { getPostData, getSortedPostsData } from "@/lib/posts"
 import { notFound } from "next/navigation"
-import ReactMarkdown from "react-markdown"
 import Image from "next/image"
-import BlogCTA from "@/components/BlogCTA"
+import BlogCTA from "../../../components/BlogCTA"
 import { convertMarkdownToHtml } from "../../markdownToHtml"
 
 // Função para buscar parâmetros de slug
@@ -46,7 +45,7 @@ export default async function Post({ params }: { params: { slug: string } }) {
                 />
               </div>
             )}
-            <div className="prose max-w-none text-white">
+            <div className="markdown-content prose max-w-none text-white">
               <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
             </div>
             <BlogCTA />
