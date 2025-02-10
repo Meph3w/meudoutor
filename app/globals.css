@@ -48,6 +48,7 @@ body {
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -88,35 +89,38 @@ body {
   * {
     @apply border-border;
   }
+
   body {
     background-color: #161616;
     color: white;
-}
+  }
 }
 
-/* Em globals.css ou outro arquivo CSS */
 .markdown-content h1,
 .markdown-content h2,
 .markdown-content h3 {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
 }
 
 .markdown-content p {
   line-height: 1.6;
-  color: #e0e0e0; /* Cor do texto */
+  color: #ffffff; /* Cor do texto */
 }
 
 .markdown-content a {
-  color: #42a5f5;
+  color: #00b0b9; /* Cor dos links */
 }
 
 .markdown-content pre {
   background-color: #2c3e50;
-  color: #ecf0f1;
+  color: #ffffff;
 }
 
 .markdown-content code {
   background-color: #34495e;
 }
 
+.markdown-content strong {
+  color: #ffffff !important;
+}
