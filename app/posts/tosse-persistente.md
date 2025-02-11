@@ -52,7 +52,7 @@ O tratamento normalmente segue duas linhas de raciocínio:
 
 O tratamento dos sintomas normalmente segue a linha dos antialérgicos e xaropes.
 
-Também existem medicamentos caseiros que podem ajudar com a tosse, como o [xarope de mel](https://meudoutor.digital/xarope-de-mel) ou [chá de gengibre](https://meudoutor.digital/cha-de-gengibre).
+Também existem medicamentos caseiros que podem ajudar com a tosse, como o [xarope de mel](https://meudoutor.digital/blog/xarope-de-mel) ou [chá de gengibre](https://meudoutor.digital/blog/cha-de-gengibre).
 
 
 ## Quando procurar um médico?
