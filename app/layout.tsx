@@ -10,7 +10,7 @@ import type React from "react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "meudoutor.digital",
+  title: "Meu Doutor Digital",
   description: "Saúde de alta qualidade na palma da sua mão. Teleconsultas médicas para todo o Brasil.",
   icons: {
     icon: "/favicon.png", // Configuração no metadata
