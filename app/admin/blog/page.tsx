@@ -5,7 +5,7 @@ import { useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
 import dynamic from "next/dynamic"
 
-const RichTextEditor = dynamic(() => import("@/components/RichTextEditor"), { ssr: false })
+const RichTextEditor = dynamic(() => import("../../../components/RichTextEditor"), { ssr: false })
 
 export default function BlogManagement() {
   const { data: session } = useSession()
