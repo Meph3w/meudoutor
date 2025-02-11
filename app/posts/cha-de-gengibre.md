@@ -3,7 +3,7 @@ title: 'Chá de gengibre para melhorar tosse e gripe: benefícios e receitas par
 date: '2025-02-11'
 excerpt: 'Descubra como o chá de gengibre pode ajudar a aliviar a tosse e fortalecer o sistema imunológico com uma receita simples e eficaz.'
 author: 'Carlos Felipe'
-image: 'https://faculdadeimes.org.br/wp-content/uploads/2023/06/36-atencao-area-de-teste.jpg'
+image: 'https://images.pexels.com/photos/128403/pexels-photo-128403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 ---
 
 # Chá de gengibre para melhorar tosse e gripe: benefícios e receitas para fazer em casa
