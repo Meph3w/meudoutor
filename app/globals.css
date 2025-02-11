@@ -98,7 +98,9 @@ body {
 
 .markdown-content h1,
 .markdown-content h2,
-.markdown-content h3 {
+.markdown-content h3 
+.markdown-content h4 
+.markdown-content h5 {
   color: #ffffff;
   font-weight: bold;
 }
@@ -109,7 +111,7 @@ body {
 }
 
 .markdown-content a {
-  color: #00b0b9; /* Cor dos links */
+  color: #6aeba4; /* Cor dos links */
 }
 
 .markdown-content pre {
