@@ -1,7 +1,7 @@
 ﻿---
 title: 'Dor de ouvido: as principais causas e o que fazer' 
- date: '2025-02-11' 
- excerpt: 'Descubra as principais causas da dor de ouvido, quando procurar um médico e o que pode ser feito para aliviar os sintomas.' 
+date: '2025-02-11' 
+excerpt: 'Descubra as principais causas da dor de ouvido, quando procurar um médico e o que pode ser feito para aliviar os sintomas.' 
 author: 'Carlos Felipe' 
 image: 'https://images.pexels.com/photos/7114756/pexels-photo-7114756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 ---
