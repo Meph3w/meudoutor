@@ -68,6 +68,6 @@ Tome uma colher de sopa até três vezes ao dia. Mantenha na geladeira.
 
 O xarope de mel é uma alternativa natural e eficaz para aliviar a tosse e outros sintomas gripais. Suas propriedades terapêuticas contribuem para o bem-estar e podem ser usadas como um complemento ao tratamento indicado por um profissional de saúde. 
 
-Lembre-se de que, se a [tosse persistir](http://meudoutor.digital/tosse-persistente) por mais de algumas semanas ou vier acompanhada de outros sintomas graves, é fundamental procurar um médico para avaliação adequada.
+Lembre-se de que, se a [tosse persistir](http://meudoutor.digital/blog/tosse-persistente) por mais de algumas semanas ou vier acompanhada de outros sintomas graves, é fundamental procurar um médico para avaliação adequada.
 
 Cuide da sua saúde e aproveite os benefícios naturais do mel!
