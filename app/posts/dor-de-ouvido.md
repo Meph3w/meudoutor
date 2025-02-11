@@ -5,6 +5,7 @@ title: 'Dor de ouvido: as principais causas e o que fazer'
 author: 'Carlos Felipe' 
 image: 'https://images.pexels.com/photos/7114756/pexels-photo-7114756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 ---
+
 # Dor de ouvido: as principais causas e o que fazer
 
 A dor de ouvido é um sintoma comum que pode afetar adultos e crianças. Embora algumas causas sejam leves e possam ser tratadas em casa, outras podem indicar condições mais sérias. 
