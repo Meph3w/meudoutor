@@ -44,7 +44,7 @@ Beba 1 xícara até três vezes ao dia, especialmente antes de dormir para alivi
 
 O chá de gengibre é uma opção natural e eficaz para aliviar a tosse e fortalecer o sistema imunológico. Seus componentes ativos auxiliam na recuperação de gripes e resfriados, proporcionando alívio rápido e bem-estar. 
 
-No entanto, caso a [tosse persista](https://meudoutor.digital/tosse-persistente) por mais de 5 dias ou se intensifique, é essencial procurar orientação médica para uma avaliação mais detalhada.
+No entanto, caso a [tosse persista](https://meudoutor.digital/blog/tosse-persistente) por mais de 5 dias ou se intensifique, é essencial procurar orientação médica para uma avaliação mais detalhada.
 
 Inclua o chá de gengibre na sua rotina e aproveite seus benefícios para uma saúde mais forte e equilibrada!
 
