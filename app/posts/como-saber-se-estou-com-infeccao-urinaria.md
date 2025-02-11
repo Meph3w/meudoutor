@@ -1,9 +1,10 @@
-﻿----------
+﻿---
 title: 'Como saber se estou com infecção urinária?' 
 date: '2025-02-11' 
 excerpt: 'Como saber se estou com infecção urinária: sintomas, causas e como melhorar.' 
 author: 'Carlos Felipe' 
 image: 'https://images.pexels.com/photos/7298905/pexels-photo-7298905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+---
 
 # Como saber se estou com infecção urinária?
 
