@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Meu Doutor Digital",
   description: "Saúde de alta qualidade na palma da sua mão. Teleconsultas médicas para todo o Brasil.",
   icons: {
-    icon: "/favicon.png", // Configuração no metadata
+    icon: "/favicon.png",
   },
 }
 
@@ -25,28 +25,25 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
+        {/* Google Tag Manager (GTM) - Head */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              <!-- Google Tag Manager -->
-              <script>
-                (function(w,d,s,l,i){
-                  w[l]=w[l]||[];w[l].push({'gtm.start':
-                  new Date().getTime(),event:'gtm.js'}); 
-                  var f=d.getElementsByTagName(s)[0],
-                  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''; 
-                  j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; 
-                  f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','GTM-WV77RWCV');
-              </script>
-              <!-- End Google Tag Manager -->
+              (function(w,d,s,l,i){
+                w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'}); 
+                var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:''; 
+                j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl; 
+                f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-WV77RWCV');
             `,
           }}
         />
+        {/* Favicon */}
         <link rel="icon" href="/favicon.png" />
       </head>
       <body className={`${inter.className} flex flex-col min-h-screen`}>
-        {/* Adicionar o código GTM no início do <body> */}
+        {/* Google Tag Manager (noscript) - Body */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-WV77RWCV"
@@ -55,7 +52,7 @@ export default function RootLayout({
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        
+
         <Providers>
           <Header />
           <main className="flex-grow bg-[#161616]">{children}</main>
